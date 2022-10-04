@@ -1,4 +1,3 @@
-import Count from "./components/Count";
 import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/Navbar";
 
@@ -8,7 +7,6 @@ const App = () => {
     <div className="App">
     <NavBar />
       <ItemListContainer nameEcommerce="My store" />
-      <Count />
     </div>
   );
 }
