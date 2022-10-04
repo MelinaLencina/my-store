@@ -18,3 +18,10 @@
     align-items: center;
     background-color: pink;
 }
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+

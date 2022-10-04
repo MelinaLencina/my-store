@@ -1,11 +1,14 @@
-import TukiComponents from "./components/TukiComponents";
+import Count from "./components/Count";
+import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/Navbar";
 
 const App = () => {
   console.log("App");
   return (
     <div className="App">
-      <h1>La banda del Tuki</h1>
-      <TukiComponents />
+    <NavBar />
+      <ItemListContainer nameEcommerce="My store" />
+      <Count />
     </div>
   );
 }
